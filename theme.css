@@ -1,0 +1,283 @@
+/* Common Style */
+
+.bpGrayBackground{
+    background-color: #F8F8FA;
+}
+.bpGrayBoarder{
+    border: 1px solid #E5E5E5;
+}
+.bpTextDarkestGray{
+  color: #222;
+}
+.bpTextDarkGray{
+  color: #444;
+}
+.bpTextGray{
+  color: #747474;
+}
+.bpTextLarge{
+  font-size: 18px;
+}
+.bpTextMid{
+  font-size: 16px;
+}
+.bpTextSmall{
+  font-size: 14px;
+}
+/* Assignment List */
+    
+.assignmentList{
+    margin: 0;
+    list-style: none;
+}
+.assignmentList li h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    line-height: 140%;
+    border-top: 1px solid #E5E5E5 !important;
+    /* padding-top: 20px; */
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.assignmentList li{
+    padding: 0;
+}
+.assignmentList li.assignment:hover{
+    background-color: #F8F8FA;
+    cursor: pointer;
+}
+.assignmentList li.done p{
+    color: #747474;
+}
+.assignmentList li a{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+
+    text-decoration: none !important;
+    width: 100%;
+    height: 100%;
+    padding: 10px 4px;
+}
+.assignmentList li p{
+    font-size: 16px;
+    color: #222;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0;
+}
+
+
+/* ---------------------------- ----------------------------  Welcome page */
+.with-right-side #right-side-wrapper {
+    display: none !important;
+  }
+  .container_welcomePage h2, .container_welcomePage h3, .container_welcomePage p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .container_welcomePage h2{
+    font-size: 32px;
+    font-weight: 200 !important;
+    text-align: left;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+  }
+  .container_welcomePage p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 160%;
+  }
+  
+  /* ---------------------------- Banner ---------------------------- */
+  
+  .container_banner h2, .container_banner h3, .container_banner p{
+    color: white;
+  }
+  .container_banner{
+    background-image: url("https://classroom.emeritus.org/courses/1960/files/880644/preview");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background-color: #11182F;
+    padding: 0 0;
+    margin: 0;
+  }
+  .container_banner .container_header{
+    padding: 4% 2% 0 2%;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+    min-width: 280px;
+  }
+  .container_banner .container_header h2{
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .container_banner .container_header p{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .container_banner ul.faculty{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    min-width: 280px;
+    padding: 0 0 4% 0;
+  }
+  /*.container_banner ul.faculty::after {
+    content: "";
+    flex: auto;
+  }*/
+  .container_banner ul.faculty li{
+    width: 24%;
+    text-align: center;
+    width: 120px;
+  }
+  .container_banner ul.faculty img{
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* --------------------------------- List --------------------------------- */
+  
+  .container_prepare{
+    padding: 4% 0;
+    background-color: white;
+  }
+  .container_prepare h2 {
+    color: #222222;
+    margin: 0 0 20px 0;
+  }
+  
+  /* ---------------------------- Outer List */
+  
+  .container_prepare .outer_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    border-bottom: 1px solid #E5E5E5;
+  }
+  .container_prepare .outer_list > li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px solid #E5E5E5;
+  }
+  
+  /* ---------------------------- Inner List */
+  
+  .container_prepare ul.outer_list li img{
+    height: 165px;
+    width: 201px;
+    /* flex: 1; */
+  }
+  .container_prepare .outer_list .container_text{
+    min-width: 280px;
+    flex: 4;
+  }
+  .container_prepare .outer_list .container_text h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+  }
+  .container_prepare .outer_list .container_text > p{
+    margin-bottom: 10px;
+  }
+  .container_prepare .outer_list .container_text ul li p{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .container_prepare .outer_list .container_text ul{
+    list-style: circle;
+    /* padding-left: 14px; */
+  }
+  .container_prepare .outer_list .container_text li{
+    /* margin-bottom: 10px; */
+  }
+  .container_prepare .outer_list .container_text > ul li{
+    color: #222; 
+  }
+  .container_prepare .button{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    background: white;
+    padding: 10px 20px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    color: #222;
+    transition: 0.25s ease;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .container_prepare .button:visited{
+    text-decoration: none;
+  }
+  .container_prepare .button:hover{
+    background-color: #E5E5E5;
+  }
+  @media (min-width: 900px) {
+  }
+  
+  
+  /* ---------------------------- Testimonial ---------------------------- */
+  
+  .container_testimonial{
+    background-color: #3A4965;
+    background-image: url("https://classroom.emeritus.org/courses/1960/files/880651/preview");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+    padding: 6% 4% 4% 4%;
+  }
+  
+  .container_testimonial h2{
+    font-size: 32px;
+    font-weight: 200;
+    color: white;
+    line-height: 140%;
+    /* layout */
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  .container_testimonial ul{
+  display: flex;
+  /* align-items: stretch; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .container_testimonial .testimonial{
+  width: 240px;
+  background: white;
+    text-align: center;
+    padding: 2% 4%;
+    margin: 0 2% 20px 2%;
+    border-radius: 4px;
+    min-height: 240px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+  }
+  .container_testimonial .testimonial p{
+  padding-top: 10px;
+  }
